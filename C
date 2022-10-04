@@ -1,0 +1,5 @@
+#! /bin/bash
+APP=pollsam
+dart compile exe bin/$APP.dart -o /usr/local/bin/$APP
+#dart compile exe lib/src/rest_server.dart
+ls -ld /usr/local/bin/$APP
